@@ -20,7 +20,7 @@ import statsmodels.formula.api as smf
 
 #Decide which league to load
 #Wyscout data from https://figshare.com/collections/Soccer_match_event_dataset/4415000/2
-with open('Wyscout/events/events_England.json') as f:
+with open('events_England.json') as f:
     data = json.load(f)
     
 #Create a data set of shots.
